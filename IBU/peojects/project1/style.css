@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(74, 172, 150);
+    padding: 0px;
+    margin: 0px;
+    overflow:  hidden;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+.navbar a:hover{
+    background-color: rgb(35, 68, 110);
+}
+.navbar li{
+    float: right;
+}
+
+
+
+
+.name h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    
+}
+.name p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+   
+}
+.logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+footer {
+    
+    background-color: rgb(74, 172, 150);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px; 
+    padding-top: 0; 
+}
+footer li{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; 
+}
+.foote ul{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    text-align: center;  
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
