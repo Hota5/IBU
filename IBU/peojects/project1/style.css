@@ -1,15 +1,31 @@
 body{
     margin: 0px;
 }
-h1{
-    text-align: center
+
+.navbar{
+    background-color: rgb(74, 172, 150);
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(74, 172, 150);
+    width: 100%;
     padding: 0px;
-    margin: 0px;
-    overflow:  hidden;
+    margin: 0px; 
+    
+}
+.navbar img{
+   
+    float: left;
+}
+.navbar img:hover{
+    background-color: rgb(74, 172, 150);
+    float: left;
+}
+.navbar pre{
+    color: aliceblue;
+    float: left;
+    padding-top: 5px;  
+    padding-left: 5px;
+    font-size: 15px;
 }
 .navbar a{
     color: aliceblue;
@@ -21,33 +37,34 @@ h1{
 }
 .navbar a:hover{
     background-color: rgb(35, 68, 110);
+    color: aliceblue;
 }
 .navbar li{
     float: right;
 }
-
-
-
-
-.name h1{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 50px;
+.link a{
+    margin-top: 2px;
     margin: 0px;
-    
+    padding: 0px;
 }
-.name p{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 15px;
-    margin: 0px;
-   
-}
-.logo {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,17 +79,20 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 20px; 
+    padding: 3px; 
     padding-top: 0; 
+    
 }
 footer li{
     list-style-type: none;
     padding: 0px;
     margin: 0px; 
+    
 }
 .foote ul{
     display: flex;
     justify-content: center;
+    
 }
 footer a{
     color: aliceblue;
@@ -84,6 +104,11 @@ footer a{
     font-size: 20px;
     display: flex;
     justify-content: center;
+    
+}
+footer a:hover{
+    background-color: rgb(35, 68, 110);
+    color: aliceblue;
 }
 footer p{
     text-align: center;  
