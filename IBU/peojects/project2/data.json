@@ -1,0 +1,17 @@
+{
+    "rentals": [
+      {
+        "name": "Budget Friendly",
+        "image": "images/golf.jpg"
+      },
+      {
+        "name": "Most Popular",
+        "image": "images/bmw.png"
+      },
+      {
+        "name": "Luxury",
+        "image": "images/lambo.jpg"
+      }
+    ]
+  }
+  
