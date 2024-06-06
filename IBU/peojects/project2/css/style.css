@@ -2,7 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
   background-color: #ffffff;
-  background-image: url(../new/Newfolder/busroad2.jpg);
+  background-image: url(../images/busroad2.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -114,9 +114,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../new/Newfolder/busroad2.jpg);
+  background-image: url(../images/busroad2.jpg);
   background-size: cover;
   background-attachment: fixed;
+  
 }
 .hero_area {
   height: 100vh;
@@ -127,11 +128,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../new/Newfolder/busroad2.jpg);
+  background-image: url(../images/busroad2.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
-
+h2{
+  color: var(--text-color);
+}
+p {
+  color: var(--text-color);
+}
 .sub_page .hero_area {
   height: auto;
 }
@@ -300,7 +306,7 @@ a:focus {
 
 
 .us_section {
-  background-image: url(../New/Newfolder/roads2.jpg);
+  background-image: url(../images/roads2.jpg);
   background-size: cover;
   background-attachment: fixed;
   
@@ -347,7 +353,7 @@ a:focus {
 }
 
 .heathy_section {
-  background-image: url(/New/Newfolder/front1.jpg);
+  background-image: url(../images/front1.jpg);
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -391,7 +397,7 @@ a:focus {
 }
 
 .trainer_section {
-  background-image: url(../New/Newfolder/kiallot1.jpg);
+  background-image: url(../images/kiallot1.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -656,8 +662,21 @@ a:focus {
 }
 
 /* contact*/
-
-
+.img-fluid {
+  width: 100%;
+    max-width: 450px; /* Set a maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin: 5 auto; /* Center the image if smaller than container */
+}
+.about-box {
+  background-color: rgba(240, 248, 255, 0.123);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 8px;
+  padding-top: 1px;
+  size: auto;
+}
 /* footer section*/
 .info_section {
   background-color: var(--botom-color);
